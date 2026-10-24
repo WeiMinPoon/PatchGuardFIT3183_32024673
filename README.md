@@ -101,5 +101,12 @@ If you find our work useful in your research, please consider citing:
 ### How to use
 1) Import everything in requirement.txt
 2) pip install git+https://github.com/wielandbrendel/bag-of-local-features-models.git
-3) Select the command lines in "Run this for real.sh" to run the whole training process
-4) To use the command lines in Google Colab, add a ! before the line and it should run, eg: "python mask_ds.py --dataset cifar --patch_size 5 --ds #ds for cifar" -> "!python mask_ds.py --dataset cifar --patch_size 5 --ds #ds for cifar"
+3) Install data:
+     - [ImageNette](https://github.com/fastai/imagenette) ([Full size](https://s3.amazonaws.com/fast-ai-imageclas/imagenette2.tgz))
+     - [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
+4) Download checkpoint
+     - [Google Drive Link](https://drive.google.com/drive/folders/1Z-4-iwLEmjnApEQYZVuuLOcvx1F3tguy?usp=sharing)
+5) Select the command lines in "Run this for real.sh" to run the whole training process
+6) To use the command lines in Google Colab, add a ! before the line and it should run, eg: "python mask_ds.py --dataset cifar --patch_size 5 --ds #ds for cifar" -> "!python mask_ds.py --dataset cifar --patch_size 5 --ds #ds for cifar"
+7) Final code directory should look like the diagram under Files
+   
